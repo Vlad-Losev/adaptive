@@ -82,6 +82,10 @@
     background: #2A2C3F;
   }
 
+  .footer__contact {
+    margin-right: 30px;
+  }
+
   .footer .container {
     padding: 0;
   }
@@ -120,7 +124,7 @@
     display: none;
   }
 
-  .contact {
+  .footer__contact {
     background: url(./img/Phone.svg);
     width: 24px;
     height: 24px;

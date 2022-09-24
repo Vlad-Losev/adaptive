@@ -2,7 +2,7 @@
   background: url(./img/img-office.png);
   max-height: 742px;
   background-repeat: no-repeat;
-  /* background-position: center; */
+  background-position: center;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -13,7 +13,7 @@
 }
 
 .header {
-  width: 1200px;
+  max-width: 1200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,7 +26,7 @@
 }
 
 .home-screen-content {
-  max-width: 990px;
+  /* max-width: 990px; */
   margin: 0 auto;
 }
 
@@ -43,6 +43,7 @@
   font-size: 22px;
   line-height: 31px;
   text-align: center;
+  padding: 0 105px;
   margin-bottom: 89px;
 }
 
@@ -89,10 +90,15 @@
     margin-bottom: 27px;
   }
 
+  .home-screen-content {
+    max-width: 990px;
+  }
+
   .home-screen-content__text {
     font-size: 18px;
     line-height: 25px;
     margin-bottom: 60px;
+    padding: 0;
   }
 
   .home-screen__button {
