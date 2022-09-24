@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>adaptive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@300;400;500;600;700&family=Roboto+Condensed&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+  <section class="home-screen">
+    <div class="container">
+      <div class="header">
+        <a class="logo" href="#">
+          <img src="./style/home-screen/img/logo.svg" alt="логотип">
+        </a>
+
+        <a class="header-contact" href="tel:79625561234">
+          <div class="contact__numerals">+7 (962) 556 - 1234</div>
+
+          <div class="phone"></div>
+
+          <div class="contact__text"><span class="contact__span">Перезвоните мне</span></div>
+        </a>
+      </div>
+      <div class="home-screen-content">
+        <h1 class="title-h1">
+          Заголовок c уникальным торговым предложение по системе 4U
+        </h1>
+
+        <p class="home-screen-content__text">
+          Описания предлжения компании. Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему.
+        </p>
+
+        <a href="#" class="home-screen__button">Подробнее</a>
+      </div>
+    </div>
+  </section>
+  <section class="advantages">
+    <div class="container">
+      <div class="advantages-content">
+        <h2 class="title-h2">
+        Уникальный заголовок для преимущества компании
+        </h2>
+
+        <div class="wrapper-band">
+          <img class="band" src="./style/advantages/img/band.svg" alt="полоска">
+
+          <div class="wrapper-band__about-us">О нас</div>
+
+          <img class="band" src="./style/advantages/img/band.svg" alt="полоса">
+        </div>
+
+        <div class="advantages-wrapper">
+          <p class="advantages-wrapper__text">
+            Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить.
+          </p>
+        </div>
+      </div>
+      <ul class="list">
+        <li class="item">
+          <a class="link" href="#">
+            <img  class="item__img" src="./style/advantages/img/one.svg" alt="#">
+
+            <p class="item__text">
+             Первое целевое преимущество
+            </p>
+          </a>
+        </li>
+        <li class="item">
+          <a class="link" href="#">
+            <img class="item__img" src="./style/advantages/img/two.svg" alt="#">
+
+            <p class="item__text">
+              Второе целевое преимущество
+            </p>
+          </a>
+        </li>
+        <li class="item">
+          <a class="link" href="#">
+            <img class="item__img" src="./style/advantages/img/three.svg" alt="#">
+
+            <p class="item__text">
+              Третье целевое преимущество
+            </p>
+          </a>
+        </li>
+        <li class="item">
+          <a class="link" href="#">
+            <img class="item__img" src="./style/advantages/img/four.svg" alt="#">
+
+            <p class="item__text">
+              Четвертое целевое преимущество
+            </p>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="faq">
+    <div class="container">
+      <h1 class="faq-title-h2">
+        Остались вопросы?
+      </h1>
+
+      <p class="faq__text">
+        Оставьте номер телефона, и мы перезвоним вам
+      </p>
+
+      <form class="faq-form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
+        <fieldset class="faq-fieldset">
+          <input class="faq__input" type="search" name="tel" placeholder="Ваше имя">
+          <input class="faq__input" type="tel" name="name" placeholder="Телефон">
+          <input class="faq__input" type="email" name="email" placeholder="E-mail">
+        </fieldset>
+        
+        <div class="faq__wrapper-tel">
+          <button class="faq__tel" type="submit">
+            позвоните мне
+          </button>
+        </div>
+        
+        <div class="agreement">
+          Я даю своё
+          <input class="faq__input-none" type="checkbox" name="agreement" value="agreement"   id="agrement">
+          <label class="agreement__text" for="agrement">согласие</label>
+          на обработку моих персональных данных.
+        </div>
+      </form>
+    </div>
+  </section>
+  <section class="footer">
+    <div class="container">
+      <div class="footer-wrapper">
+        <div class="footer-wrapper-logo">
+          <a class="footer__logo-link" href="#">
+            <img class="footer-logo" src="./style/footer/img/logo.svg" alt="logo">
+          </a>
+        
+          <p class="footer-logo__text">
+            © 2022 XXXcompany.<br> 
+            Все права защищены.
+          </p>
+        </div>
+        <div class="wrapper-fi">
+          <p class="footer__ivan">Сделано Ивановым    Иваном</p>
+        </div>
+        
+        <a class="footer__contact" href="tel:79625561234">
+          <div class="contact__numerals">+7 (962) 556 - 1234</div>
+
+          <div class="contact__text"><span class="contact__text_none">Перезвоните мне</span></div>
+        </a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

@@ -1,0 +1,148 @@
+.advantages {
+  color: #383A4C;
+}
+
+.advantages-content {
+  max-width: 884px;
+  margin: 0 auto;
+}
+
+.title-h2 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 41px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.wrapper-band {
+  display: flex;
+  gap: 23px;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+.wrapper-band__about-us {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.advantages-wrapper {
+  max-width: 724px;
+  margin: 0 auto;
+}
+
+.advantages-wrapper__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  gap: 62px;
+  margin-bottom: 70px;
+}
+
+.item {
+  width: 183px;
+  text-align: center;
+}
+
+.item__img {
+  margin-bottom: 16px;
+}
+
+.item__text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .title-h2 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .wrapper-band__about-us {
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .band {
+    width: 40px;
+    height: 2px;
+  }
+
+  .advantages-wrapper__text {
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .item__text {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .item__img {
+    width: 104px;
+    height: 104px;
+  }
+
+  .list {
+    gap: 30px;
+  }
+
+  .item {
+    width: 165px;
+  }
+
+  .title-h2 {
+    margin-bottom: 23px;
+  }
+
+  .wrapper-band {
+    margin-bottom: 33px;
+  }
+}
+
+@media (max-width: 650px) {
+  .list {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 380px) {
+  .title-h2 {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 15px;
+  }
+
+  .wrapper-band__about-us {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 26px;
+  }
+
+  .band {
+    width: 20px;
+    height: 1px;
+  }
+
+  .advantages-wrapper__text {
+    font-size: 12px;
+    line-height: 17px;
+    margin-bottom: 40px;
+  }
+
+  .list {
+    margin-bottom: 60px;
+  }
+}

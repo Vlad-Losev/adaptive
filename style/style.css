@@ -1,0 +1,42 @@
+@import url(./normalize.css);
+@import url(./global.style.css);
+@import url(./home-screen/home-screen.css);
+@import url(./advantages/advantages.css);
+@import url(./faq/faq.css);
+@import url(./footer/footer.css);
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.contact  {
+  max-width: 208px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__text {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.contact__span {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.contact__numerals {
+  font-weight: 400;
+  font-size: 23.85px;
+  line-height: 28px;
+  margin-bottom: 6px;
+}

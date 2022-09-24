@@ -1,0 +1,155 @@
+.home-screen {
+  background: url(./img/img-office.png);
+  max-height: 742px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  margin: 0;
+  margin-bottom: 70px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 120px;
+  padding-top: 40px;
+}
+
+.home-screen-content {
+  max-width: 990px;
+  margin: 0 auto;
+}
+
+.title-h1 {
+  font-weight: 900;
+  font-size: 52px;
+  line-height: 61px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.home-screen-content__text {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 31px;
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.home-screen__button {
+  width: 200px;
+  height: 48px;
+  display: block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  background: #15A9CB;
+  box-shadow: 0px 4px 25px rgba(21, 169, 203, 0.3);
+  border-radius: 50px;
+  padding: 12px 48px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+@media (max-width: 1024px) {
+  .logo {
+    width: 60px;
+  }
+
+  .contact__numerals {
+    font-size: 21px;
+    line-height: 25px;
+  }
+
+  .contact__span {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .header {
+    padding-top: 26px;
+    margin-bottom: 70px;
+  }
+
+  .title-h1 {
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 27px;
+  }
+
+  .home-screen-content__text {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 60px;
+  }
+
+  .home-screen__button {
+    margin-bottom: 70px;
+  }
+}
+
+@media (max-width: 380px) {
+  .home-screen {
+    background-position: left;
+    margin-bottom: 30px;
+  }
+
+  .home-screen .container {
+    padding: 0 15px;
+  }
+
+  .header {
+    padding-top: 15px;
+    margin-bottom: 80px;
+  }
+
+  .logo {
+    width: 30px;
+  }
+
+  .contact__numerals {
+    display: none;
+  }
+
+  .contact__span {
+    display: none;
+  }
+
+  .phone {
+    width: 24px;
+    height: 24px;
+    background: url(./img/Phone.svg);
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .title-h1 {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 23px;
+  }
+
+  .home-screen-content__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 54px;
+  }
+
+  .home-screen__button {
+    width: 160px;
+    height: 38px;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 10px 28px;
+    margin-bottom: 65px;
+  }
+  
+}
