@@ -2,7 +2,7 @@
   background: url(./img/img-office.png);
   max-height: 742px;
   background-repeat: no-repeat;
-  background-position: center;
+  /* background-position: center; */
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -13,11 +13,16 @@
 }
 
 .header {
+  width: 1200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 120px;
-  padding-top: 40px;
+  padding-top: 40px;  
+  margin-bottom: 114px;
+}
+
+.header-contact {
+  text-align: center;
 }
 
 .home-screen-content {
@@ -38,7 +43,7 @@
   font-size: 22px;
   line-height: 31px;
   text-align: center;
-  margin-bottom: 90px;
+  margin-bottom: 89px;
 }
 
 .home-screen__button {
