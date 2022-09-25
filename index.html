@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-  <section class="home-screen">
+  <header class="home-screen">
     <div class="container">
       <div class="header">
         <a class="logo" href="#">
@@ -38,107 +38,110 @@
         <a href="#" class="home-screen__button">Подробнее</a>
       </div>
     </div>
-  </section>
-  <section class="advantages">
-    <div class="container">
-      <div class="advantages-content">
-        <h2 class="title-h2">
-        Уникальный заголовок для преимущества компании
-        </h2>
+  </header>
+  <main>
+    <section class="advantages">
+      <div class="container">
+        <div class="advantages-content">
+          <h2 class="title-h2">
+            Уникальный заголовок для преимущества компании
+          </h2>
 
-        <div class="wrapper-band">
-          <img class="band" src="./style/advantages/img/band.svg" alt="полоска">
+          <div class="wrapper-band">
+            <img class="band" src="./style/advantages/img/band.svg" alt="полоска">
 
-          <div class="wrapper-band__about-us">О нас</div>
+            <div class="wrapper-band__about-us">О нас</div>
 
-          <img class="band" src="./style/advantages/img/band.svg" alt="полоса">
-        </div>
+            <img class="band" src="./style/advantages/img/band.svg" alt="полоса">
+          </div>
 
-        <div class="advantages-wrapper-wrapper">
-          <div class="advantages-wrapper">
-          <p class="advantages-wrapper__text">
-            Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить.
-          </p>
-        </div>
-        </div>
+          <div class="advantages-wrapper-wrapper">
+            <div class="advantages-wrapper">
+            <p class="advantages-wrapper__text">
+              Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить.
+            </p>
+          </div>
+          </div>
         
+        </div>
+        <ul class="list">
+          <li class="item">
+            <a class="link" href="#">
+              <img  class="item__img" src="./style/advantages/img/one.svg" alt="#">
+
+              <p class="item__text">
+                Первое целевое преимущество
+              </p>
+            </a>
+          </li>
+          <li class="item">
+            <a class="link" href="#">
+              <img class="item__img" src="./style/advantages/img/two.svg" alt="#">
+
+              <p class="item__text">
+                Второе целевое преимущество
+              </p>
+            </a>
+          </li>
+          <li class="item">
+            <a class="link" href="#">
+              <img class="item__img" src="./style/advantages/img/three.svg" alt="#">
+
+              <p class="item__text">
+                Третье целевое преимущество
+              </p>
+            </a>
+          </li>
+          <li class="item">
+            <a class="link" href="#">
+              <img class="item__img" src="./style/advantages/img/four.svg" alt="#">
+
+              <p class="item__text">
+                Четвертое целевое преимущество
+              </p>
+            </a>
+          </li>
+        </ul>
       </div>
-      <ul class="list">
-        <li class="item">
-          <a class="link" href="#">
-            <img  class="item__img" src="./style/advantages/img/one.svg" alt="#">
-
-            <p class="item__text">
-             Первое целевое преимущество
-            </p>
-          </a>
-        </li>
-        <li class="item">
-          <a class="link" href="#">
-            <img class="item__img" src="./style/advantages/img/two.svg" alt="#">
-
-            <p class="item__text">
-              Второе целевое преимущество
-            </p>
-          </a>
-        </li>
-        <li class="item">
-          <a class="link" href="#">
-            <img class="item__img" src="./style/advantages/img/three.svg" alt="#">
-
-            <p class="item__text">
-              Третье целевое преимущество
-            </p>
-          </a>
-        </li>
-        <li class="item">
-          <a class="link" href="#">
-            <img class="item__img" src="./style/advantages/img/four.svg" alt="#">
-
-            <p class="item__text">
-              Четвертое целевое преимущество
-            </p>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </section>
-  <section class="faq">
-    <div class="container">
-      <div class="wrapper-faq-title">
-        <h2 class="faq-title-h2">
-          Остались вопросы?
-        </h2>
-      </div>
+    </section>
+    <section class="faq">
+      <div class="container">
+        <div class="wrapper-faq-title">
+          <h2 class="faq-title-h2">
+            Остались вопросы?
+          </h2>
+        </div>
       
 
-      <p class="faq__text">
-        Оставьте номер телефона, и мы перезвоним вам
-      </p>
+        <p class="faq__text">
+          Оставьте номер телефона, и мы перезвоним вам
+        </p>
 
-      <form class="faq-form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
-        <fieldset class="faq-fieldset">
-          <input class="faq__input" type="search" name="tel" placeholder="Ваше имя">
-          <input class="faq__input" type="tel" name="name" placeholder="Телефон">
-          <input class="faq__input" type="email" name="email" placeholder="E-mail">
-        </fieldset>
+        <form class="faq-form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
+          <fieldset class="faq-fieldset">
+            <input class="faq__input" type="search" name="tel" placeholder="Ваше имя">
+            <input class="faq__input" type="tel" name="name" placeholder="Телефон">
+            <input class="faq__input" type="email" name="email" placeholder="E-mail">
+          </fieldset>
         
-        <div class="faq__wrapper-tel">
-          <button class="faq__tel" type="submit">
-            позвоните мне
-          </button>
-        </div>
+          <div class="faq__wrapper-tel">
+            <button class="faq__tel" type="submit">
+              позвоните мне
+            </button>
+          </div>
         
-        <div class="agreement">
-          Я даю своё
-          <input class="faq__input-none" type="checkbox" name="agreement" value="agreement"   id="agrement">
-          <label class="agreement__text" for="agrement">согласие</label>
-          на обработку моих персональных данных.
-        </div>
-      </form>
-    </div>
-  </section>
-  <section class="footer">
+          <div class="agreement">
+            Я даю своё
+            <input class="faq__input-none" type="checkbox" name="agreement" value="agreement"   id="agrement">
+            <label class="agreement__text" for="agrement">согласие</label>
+            на обработку моих персональных данных.
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+  
+  <footer class="footer">
     <div class="container">
       <div class="footer-wrapper">
         <div class="footer-wrapper-logo">
@@ -162,6 +165,6 @@
         </a>
       </div>
     </div>
-  </section>
+  </footer>
 </body>
 </html>
